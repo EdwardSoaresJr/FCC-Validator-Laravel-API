@@ -9,6 +9,5 @@
 
 ## About FCC Validator
 
-Requires longer php timeout and larger memory allotment.
-Currently set to 600 seconds and 512MB memory. 
+This is the Laravel API that the Wordpress plugin uses for it's data. It is still only setup for GMRS but can easily be extended for HAM etc.
 
