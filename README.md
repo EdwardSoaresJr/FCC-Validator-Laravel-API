@@ -13,4 +13,5 @@ This is the Laravel API that the Wordpress plugin uses for it's data. It is stil
 <br>
 This API requires a one time full database download and seed which I will add instructions for later, afterwards the API automatically downloads each newest day of licenses
 to add into the API database keeping it up to date as early as the day before.
-
+<br>
+By all means fix and add as much stuff as possible, long time PHP coder with 2 years Laravel, first time writing a Laravel API.
