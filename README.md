@@ -15,3 +15,10 @@ This API requires a one time full database download and seed which I will add in
 to add into the API database keeping it up to date as early as the day before.
 <br>
 By all means fix and add as much stuff as possible, long time PHP coder with 2 years Laravel, first time writing a Laravel API.
+<br>
+You need to rename .env.example to .env
+<br>
+You need to composer install, then migrate to set up the database tables.
+<br>
+Then php artisan schedule:test and run first time full FCC DB download, this currently needs to be done on a Monday so scheduler takes over aferwards and you do not lose any updates. This probably needs more explaining so I will try to expand on this more later. This is at least until a control panel is built for the API or a smart function to auto 
+download and seed all days up to current day after a full download.
